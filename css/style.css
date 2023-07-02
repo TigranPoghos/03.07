@@ -1,0 +1,31 @@
+th {
+    background-color: rgb(161, 205, 241);
+    padding: 5px 15px;
+    height: 28.4px;
+    width: 92.36px;
+}
+
+table {
+    text-align: center;
+    border-spacing: 0;
+    margin-bottom: 10000px;
+}
+
+td {
+    padding: 5px 15px;
+    height: 28.4px;
+    width: 92.36px;
+}
+
+tr:nth-child(2n+1) {
+    background: #d5d5d5;
+   }
+
+tr:first-child {
+    position: fixed;
+}
+
+
+
+
+
