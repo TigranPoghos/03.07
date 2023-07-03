@@ -1,0 +1,52 @@
+.container {
+    max-width: 1000px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Menu {
+    background-color: gray;
+    text-align: center;
+    width: 10%;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+    z-index: 99; 
+    position: relative; 
+    font-size: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+}
+
+.buttom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.Menu:hover {
+    cursor: pointer;
+    width: 25%;
+    font-size: larger;
+}
+
+.buttom:hover {
+    background-color: rgb(108, 110, 112);
+}
+
+.main__content {
+    font-size: large;
+    text-transform: uppercase;
+    width: 90%;
+    margin-left: 94px;
+}
